@@ -468,7 +468,7 @@
     {
         "id": 27,
         "type": "multioption",
-        "question": "【CH03-6】你為學校設計了一個 Python 應用程式，在 classroom 的清單中包含了 60 位同學的姓名，最後 3 名是班上的幹部。\n你需要分割清單內容顯示除了幹部以外的所有同學，你可以利用以下哪二個程式碼達成？\n可以答成回答 Yes ， 不能回答回答 No<pre><code class=\"language-python line-numbers line-hight19\"> 1. classroom[0: -2] = _(選項 1)_\n2. classroom[0: -3] = _(選項 2)_\n3. classroom[1: -3] = _(選項 3)_\n4. classroom[: -3] = _(選項 4)_\n5. classroom[1: -3] = _(選項 5)_</code></pre>",
+        "question": "【CH03-6】你為學校設計了一個 Python 應用程式，在 classroom 的清單中包含了 60 位同學的姓名，最後 3 名是班上的幹部。\n你需要分割清單內容顯示除了幹部以外的所有同學，你可以利用以下哪二個程式碼達成？\n可以答成回答 Yes ， 不能回答回答 No<pre><code class=\"language-python line-numbers line-hight19\">1. classroom[0: -2] = _(選項 1)_\n2. classroom[0: -3] = _(選項 2)_\n3. classroom[1: -3] = _(選項 3)_\n4. classroom[: -3] = _(選項 4)_\n5. classroom[1: -3] = _(選項 5)_</code></pre>",
         "options": [
             "Yes|No",
             "Yes|No",
