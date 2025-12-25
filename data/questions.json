@@ -109,7 +109,7 @@
     {
         "id": 7,
         "type": "single",
-        "question": "【CH01-7】你設計了一個 Python 程式用來顯示每個員工每天工作到現在的小時數，\n你需要計算工作時數並顯示訊息，程式碼如下：\n<pre><code class=\"language-python line-numbers line-hight19\">start = input(\"What time do you start work today?\")\nend = input(\"what time is is it now?\")</code></pre>\n如果要完成這個程式，在 3 行應該使用哪個程式碼？",
+        "question": "【CH01-7】你設計了一個 Python 程式用來顯示每個員工每天工作到現在的小時數，\n你需要計算工作時數並顯示訊息，程式碼如下：\n<pre><code class=\"language-python line-numbers line-hight19\">start = input(\"What time do you start work today?\")\nend = input(\"what time is is it now?\")</code></pre>\n如果要完成這個程式，在第 3 行應該使用哪個程式碼？",
         "options": [
             "print(\"You have worked for\" + str(int(end) - int(start)) + \"hours\")",
             "print(\"You have worked for\" + (int(end) - int(start)) + \"hours\")",
@@ -178,7 +178,7 @@
     {
         "id": 11,
         "type": "single",
-        "question": "【CH02-4】你正在開發一個補習班的 Python 函式來計算折扣，\n補習班希望鼓勵小朋友和老年人報名，\n只要是小朋友和老年人報名相關課程就會獲得10%的折扣。\n你編寫了以下程式碼：\n<pre><code class=\"language-python line-numbers line-hight19\">def get_discount(kid, senior): \n   discount = 0.1\n   if not (kid or senior):\n      discount = 0\n   return discount</code></pre>\n為了完成這個程式碼，你應該在 3 行加入什麼程式碼？",
+        "question": "【CH02-4】你正在開發一個補習班的 Python 函式來計算折扣，\n補習班希望鼓勵小朋友和老年人報名，\n只要是小朋友和老年人報名相關課程就會獲得10%的折扣。\n你編寫了以下程式碼：\n<pre><code class=\"language-python line-numbers line-hight19\">def get_discount(kid, senior): \n   discount = 0.1\n   \n      discount = 0\n   return discount</code></pre>\n為了完成這個程式碼，你應該在 3 行加入什麼程式碼？",
         "options": [
             "if not (kid or senior):",
             "if (not kid) or senior:",
@@ -453,7 +453,6 @@
             "A|B|C|D|E|F|G",
             "A|B|C|D|E|F|G",
             "A|B|C|D|E|F|G",
-            "A|B|C|D|E|F|G",
             "A|B|C|D|E|F|G"
         ],
         "answer": [
@@ -469,7 +468,7 @@
     {
         "id": 27,
         "type": "multioption",
-        "question": "【CH03-6】你為學校設計了一個 Python 應用程式，在 classroom 的清單中包含了 60 位同學的姓名，最後 3 名是班上的幹部。\n你需要分割清單內容顯示除了幹部以外的所有同學，你可以利用以下哪二個程式碼達成？\n可以答成回答 Yes ， 不能回答回答 No<pre><code class=\"language-python>1. classroom[0: -2] = _(選項 1)_\n2. classroom[0: -3] = _(選項 2)_\n3. classroom[1: -3] = _(選項 3)_\n4. classroom[: -3] = _(選項 4)_\n5. classroom[1: -3] = _(選項 5)_</code></pre>",
+        "question": "【CH03-6】你為學校設計了一個 Python 應用程式，在 classroom 的清單中包含了 60 位同學的姓名，最後 3 名是班上的幹部。\n你需要分割清單內容顯示除了幹部以外的所有同學，你可以利用以下哪二個程式碼達成？\n可以答成回答 Yes ， 不能回答回答 No<pre><code class=\"language-python line-numbers line-hight19\"> 1. classroom[0: -2] = _(選項 1)_\n2. classroom[0: -3] = _(選項 2)_\n3. classroom[1: -3] = _(選項 3)_\n4. classroom[: -3] = _(選項 4)_\n5. classroom[1: -3] = _(選項 5)_</code></pre>",
         "options": [
             "Yes|No",
             "Yes|No",
@@ -726,7 +725,7 @@
     {
         "id": 41,
         "type": "multioption",
-        "question": "【CH04-11】某間公司需要有人協助更新他們的檔案系統。\n您必須建立一個執行下列動作的簡易檔案操作程式：<pre><code class=\"language-python\">1. 查看檔案是否存在。\n2. 如果檔案存在，則顯示其內容。</code></pre>請選取正確的程式碼片段以完成程式碼。<pre><code class=\"language-python line-numbers line-hight19\">#程式碼片段\nimport os\nif _(選項 1)_\n   file = open('myFile.txt')\n   _(選項 2)_\n   file.close()</code></pre><pre><code class=\"language-python\">選項1答案選擇區\nA. os.path.isfile('myFile.txt)\nB. os.path.isexists('myFile.txt')\nC. os.path.isdir('myFile.txt')\nD. os.path.exists('myFile.txt')\n\n選項2答案選擇區\nA. print(file.read())\nB. print(file.write())\nC. print(file.close())\nD. print(file,open())</code></pre>",
+        "question": "【CH04-11】某間公司需要有人協助更新他們的檔案系統。\n您必須建立一個執行下列動作的簡易檔案操作程式：<pre><code class=\"language-python\">1. 查看檔案是否存在。\n2. 如果檔案存在，則顯示其內容。</code></pre>請選取正確的程式碼片段以完成程式碼。<pre><code class=\"language-python line-numbers line-hight19\">#程式碼片段\nimport os\nif _(選項 1)_\n   file = open('myFile.txt')\n   _(選項 2)_\n   file.close()</code></pre><pre><code class=\"language-python\">選項1答案選擇區\nA. os.path.isfile('myFile.txt')\nB. os.path.isexists('myFile.txt')\nC. os.path.isdir('myFile.txt')\nD. os.path.exists('myFile.txt')\n\n選項2答案選擇區\nA. print(file.read())\nB. print(file.write())\nC. print(file.close())\nD. print(file,open())</code></pre>",
         "options": [
             "A|B|C|D",
             "A|B|C|D"
@@ -759,7 +758,7 @@
     {
         "id": 43,
         "type": "multioption",
-        "question": "【CH05-1】你設計了一個程式要依學生的成績來顯示等級，它的規定如下：\n\n<table class='table table-bordered table-dark' style='max-width: 300px;'><tr><td>Percentage range</td><td>Letter grade</td></tr><tr><td>90 through 100</td><td>A</td></tr><tr><td>80 through 89</td><td>B</td></tr><tr><td>70 through 79</td><td>C</td></tr><tr><td>60 through 69</td><td>D</td></tr><tr><td>0 through 59</td><td>F</td></tr></table>例如，如果使用者輸入 90 ，則輸出應該是 '你的成績為 A (甲等)'。\n如果使用者輸入 89 ，則輸出應該是 '你的成績為 B (乙等)'。\n你要如何完成這段程式碼？請在回答區選擇適當的程式碼片段。<pre><code class=\"language-python line-numbers line-hight19\">#程式碼片段\n# Letter Grade Converter\ngrade = int(input('Enter a numeric grade:'))\n_(選項 1)_\nletter_grade - 'A'\n_(選項 2)_\nletter_grade = 'B'\n_(選項 3)_\nletter_grade = 'C'\n_(選項 4)_\nletter_grade = 'D'\nelse:\nletter_grade = 'F'\nprint('Your letter grade is :', letter_grade)</code></pre><pre><code class=\"language-python\">選項1答案選擇區\n答案 A. if grade <= 90:\n答案 B. if grade >= 90:\n答案 C. elif grade > 90:\n答案 D. elif grade >= 90:</code></pre><pre><code class=\"language-python\">選項2答案選擇區\n答案 A. if grade > 80:\n答案 B. if grade >= 80:\n答案 C. elif grade > 80:\n答案 D. elif grade >= 80:</code></pre><pre><code class=\"language-python\">選項3答案選擇區\nA. if grade > 70:\nB. if grade >= 70:\nC. elif grade > 70:\nD. elif grade >= 70:</code></pre><pre><code class=\"language-python\">選項4答案選擇區\nA. if grade > 60:\nB. if grade >= 60:\nC. elif grade > 60:\nD. elif grade >= 60:</code></pre>",
+        "question": "【CH05-1】你設計了一個程式要依學生的成績來顯示等級，它的規定如下：\n\n<table class='table table-bordered table-dark' style='max-width: 300px;'><tr><td>Percentage range</td><td>Letter grade</td></tr><tr><td>90 through 100</td><td>A</td></tr><tr><td>80 through 89</td><td>B</td></tr><tr><td>70 through 79</td><td>C</td></tr><tr><td>60 through 69</td><td>D</td></tr><tr><td>0 through 59</td><td>F</td></tr></table>例如，如果使用者輸入 90 ，則輸出應該是 '你的成績為 A (甲等)'。\n如果使用者輸入 89 ，則輸出應該是 '你的成績為 B (乙等)'。\n你要如何完成這段程式碼？請在回答區選擇適當的程式碼片段。<pre><code class=\"language-python line-numbers line-hight19\">#程式碼片段\n# Letter Grade Converter\ngrade = int(input('Enter a numeric grade:'))\n_(選項 1)_\nletter_grade = 'A'\n_(選項 2)_\nletter_grade = 'B'\n_(選項 3)_\nletter_grade = 'C'\n_(選項 4)_\nletter_grade = 'D'\nelse:\nletter_grade = 'F'\nprint('Your letter grade is :', letter_grade)</code></pre><pre><code class=\"language-python\">選項1答案選擇區\n答案 A. if grade <= 90:\n答案 B. if grade >= 90:\n答案 C. elif grade > 90:\n答案 D. elif grade >= 90:</code></pre><pre><code class=\"language-python\">選項2答案選擇區\n答案 A. if grade > 80:\n答案 B. if grade >= 80:\n答案 C. elif grade > 80:\n答案 D. elif grade >= 80:</code></pre><pre><code class=\"language-python\">選項3答案選擇區\nA. if grade > 70:\nB. if grade >= 70:\nC. elif grade > 70:\nD. elif grade >= 70:</code></pre><pre><code class=\"language-python\">選項4答案選擇區\nA. if grade > 60:\nB. if grade >= 60:\nC. elif grade > 60:\nD. elif grade >= 60:</code></pre>",
         "options": [
             "A|B|C|D",
             "A|B|C|D",
@@ -1219,7 +1218,7 @@
     {
         "id": 68,
         "type": "multioption",
-        "question": "【CH06-5】你正設計一個函式用來增加遊戲中的玩家得分。該函式有以下的要求：<pre><code class=\"language-python\">● 如果沒有為變數 points 指定值，則 points 等於 1。\n● 如果變數 plus 是 True ，那麼 points 必須加倍。</code></pre>程式碼如下：<pre><code class=\"language-python line-numbers line-hight19\">def add_score(score, plus, points):\n   if plus == True:\n      points = points * 2\n   score = score + points\n   return score\npoints = 5\nscore = 10\nnew_score = add_score(score, True, points)</code></pre>針對下列每個敘述，如果是正確的就選擇 Yes，否則請選擇 No。<pre><code class=\"language-python\">選項答案選擇區\n選項 1.為了符合要求必須將 1 行更改為以下內容：\ndef add _score(score, plus, points = 1):\n\n選項 2.一旦使用預值定義了任何參數，其右側任何參數也必須使用默認值進行定義。\n\n選項 3.如果只用兩個參數呼叫函式，則第三個參數的值將為 None\n\n選項 4.第 3 行的結果會改變在第 6 行中變數 points 的值。</code></pre>",
+        "question": "【CH06-5】你正設計一個函式用來增加遊戲中的玩家得分。該函式有以下的要求：<pre><code class=\"language-python\">● 如果沒有為變數 points 指定值，則 points 等於 1。\n● 如果變數 plus 是 True ，那麼 points 必須加倍。</code></pre>程式碼如下：<pre><code class=\"language-python line-numbers line-hight19\">def add_score(score, plus, points):\n   if plus == True:\n      points = points * 2\n   score = score + points\n   return score\npoints = 5\nscore = 10\nnew_score = add_score(score, True, points)</code></pre>針對下列每個敘述，如果是正確的就選擇 Yes，否則請選擇 No。<pre><code class=\"language-python\">選項答案選擇區\n選項 1.為了符合要求必須將第 1 行更改為以下內容：\ndef add _score(score, plus, points = 1):\n\n選項 2.一旦使用預值定義了任何參數，其右側任何參數也必須使用默認值進行定義。\n\n選項 3.如果只用兩個參數呼叫函式，則第三個參數的值將為 None\n\n選項 4.第 3 行的結果會改變在第 6 行中變數 points 的值。</code></pre>",
         "options": [
             "Yes|No",
             "Yes|No",
@@ -1264,9 +1263,9 @@
             "A|B|C|D"
         ],
         "answer": [
-            1,
-            1,
-            2
+            4,
+            2,
+            3
         ],
         "weight": 1,
         "image": null,
@@ -1580,7 +1579,7 @@
     {
         "id": 88,
         "type": "multioption",
-        "question": "【CH08-7】您撰寫了以下這段程式碼：<pre><code class=\"language-python line-numbers line-hight19\">import sys\ntry:\n    file_in = open('in.txt', 'r')\n    file_out = open('out.txt', 'w+')\nexcept IOError:\n    print('cannot open', file_name)\nelse:\n    i = i + 1\n    for line in file_in:\n        print (line.rstrip())\n        file_out.write('line '+ str(i) + ': '+ line)\n        i = i + 1\n    file_in.close ()\n    file_out.close ()</code></pre>out.txt 檔案不存在執行程式碼。針對下列每個叙述，如果是正確的就選擇 Yes，否則請選擇 No。<pre><code class=\"language-python\">選項答案選擇區\n\n選項 1. 此程式碼將正常執行，不會發生錯誤。\n選項 2. 此程式碼將執行，但會產生邏輯錯誤。\n選項 3. 此程式碼將產生執行階段錯誤。\n選項 4. 此程式碼碼將產生語法錯誤。</code></pre>",
+        "question": "【CH08-7】您撰寫了以下這段程式碼：<pre><code class=\"language-python line-numbers line-hight19\">import sys\ntry:\n    file_in = open('in.txt', 'r')\n    file_out = open('out.txt', 'w+')\nexcept IOError:\n    print('cannot open', file_name)\nelse:\n    i = i + 1\n    for line in file_in:\n        print (line.rstrip())\n        file_out.write('line '+ str(i) + ': '+ line)\n        i = i + 1\n    file_in.close ()\n    file_out.close ()</code></pre>out.txt 檔案不存在執行程式碼。針對下列每個叙述，如果是正確的就選擇 Yes，否則請選擇 No。<pre><code class=\"language-python\">選項答案選擇區\n\n選項 1. 此程式碼將正常執行，不會發生錯誤。\n選項 2. 此程式碼將執行，但會產生邏輯錯誤。\n選項 3. 此程式碼將產生執行階段錯誤。\n選項 4. 此程式碼將產生語法錯誤。</code></pre>",
         "options": [
             "Yes|No",
             "Yes|No",
